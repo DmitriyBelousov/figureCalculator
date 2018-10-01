@@ -12,11 +12,3 @@ namespace FiguresCalculator
         }
     }
 }
-
-
-/// Ответ на второй вопрос
-/// SELECT g.name, c.name
-/// FROM goods as g LEFT JOIN categories as c
-/// ON g.categoty_id = c.id
-/// 
-/// или ON categoty_id = c.id
